@@ -54,7 +54,7 @@ H5P.ArithmeticQuiz.ResultPage = (function ($, UI) {
       'class': 'hidden-but-read',
     }).appendTo(this.$scoreStatus);
 
-    UI.createButton({
+/*    UI.createButton({
       text: t.retryButton,
       'class': 'mq-control-button',
       click: function () {
@@ -62,7 +62,7 @@ H5P.ArithmeticQuiz.ResultPage = (function ($, UI) {
         self.update(0, '00:00');
         self.scoreBar.reset();
       }
-    }).appendTo(this.$feedbackContainer);
+    }).appendTo(this.$feedbackContainer);*/
 
     this.$resultAnnouncer = $('<div>', {
       'class': 'h5p-baq-live-feedback',
